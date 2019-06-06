@@ -10,7 +10,7 @@
         </v-toolbar>
         <v-content>
             <v-container v-if="!profile">
-                <v-btn href="/login_a" small color="primary">Sign in</v-btn> or authorize through
+                <v-btn href="/login" small color="primary">Sign in</v-btn> or authorize through
                 <a href="/login">Google</a>
             </v-container>
             <v-container v-if="profile">
